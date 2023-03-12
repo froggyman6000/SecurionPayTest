@@ -3,7 +3,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript">
     $(function () {
-        Shift4Checkout.key = 'pk_test_BS2JbJxjzLpsVWZe1SKfyqKz';
+        Shift4Checkout.key = 'CHANGE THIS'; // Change to your own public key
         Shift4Checkout.success = function (result) {
         console.log("Success"); // This will print "Success" to the console if the transaction is successful
         console.log(result); // This will print the charge/subscription object to the console if the transaction is successful
@@ -21,7 +21,7 @@
             use Shift4\Request\CheckoutRequestSubscription;
             use Shift4\Request\CheckoutRequestCustomCharge;
 
-            $shift4 = new Shift4Gateway('sk_test_BS2Jb07UJk1FkdKq0mbIGvkz'); // Change to your own secret key
+            $shift4 = new Shift4Gateway('CHANGE THIS'); // Change to your own secret key
 
             $checkoutCharge = new CheckoutRequestCharge();
             $checkoutCharge->amount(1599)->currency('USD'); // Adjust this to alter the amount and currency
@@ -36,7 +36,7 @@
         var signedRequestSubscription = <?php
 
             $checkoutSubscription = new CheckoutRequestSubscription();
-            $checkoutSubscription->planId('plan_kE2RIqZGTOMoKgcSPp2Ul9iJ'); // Change to your own plan ID
+            $checkoutSubscription->planId('CHANGE THIS'); // Change to your own plan ID
             $checkoutRequest = new CheckoutRequest();
             $checkoutRequest->subscription($checkoutSubscription);
 
