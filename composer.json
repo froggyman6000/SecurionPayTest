@@ -1,0 +1,5 @@
+{
+    "require": {
+        "shift4/shift4-php": "^2.0"
+    }
+}

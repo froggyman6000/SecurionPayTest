@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2e523fbcec37ad2d1c1be699eaa666db",
+    "packages": [
+        {
+            "name": "shift4/shift4-php",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shift4developer/shift4-php.git",
+                "reference": "5e6e730604411bb867bf964dd7fa9b39e46bd47f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shift4developer/shift4-php/zipball/5e6e730604411bb867bf964dd7fa9b39e46bd47f",
+                "reference": "5e6e730604411bb867bf964dd7fa9b39e46bd47f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shift4\\": "lib/Shift4/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shift4",
+                    "homepage": "https://dev.shift4.com/"
+                }
+            ],
+            "description": "Shift4 PHP Library",
+            "homepage": "https://dev.shift4.com/",
+            "support": {
+                "issues": "https://github.com/shift4developer/shift4-php/issues",
+                "source": "https://github.com/shift4developer/shift4-php/tree/v2.0.0"
+            },
+            "time": "2023-03-07T12:01:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
